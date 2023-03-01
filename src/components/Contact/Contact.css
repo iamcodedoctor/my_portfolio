@@ -1,0 +1,23 @@
+.main {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+
+@media screen and (max-width: 840px) {
+    .main {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
+.title {
+    text-shadow: 2px 2px 10px gray;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 720px) {
+    .main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

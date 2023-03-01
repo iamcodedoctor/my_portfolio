@@ -1,0 +1,145 @@
+.gtr-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 4rem ;
+    width: 100%;
+}
+
+.gtr-navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gtr-navbar-links-logo {
+    margin-right: 2rem;
+}
+
+.gtr-navbar-links-logo img {
+    padding: 0 !important;
+    width: 180px;
+}
+
+.gtr-navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.gtr-navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+
+.gtr-navbar-links-container p,
+.gtr-navbar-sign p,
+.gtr-navbar-menu-container p {
+    color: white;
+    /* font-family: var(--font-family); */
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.gtr-navbar-sign button,
+.gtr-navbar-menu-container button {
+    padding: 0.5rem 1rem;
+    color: white;
+    background: skyblue;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin: 0 0.3rem;
+}
+
+.gtr-navbar-menu {
+    margin-left: 1rem;
+    display: none;
+    position: relative;
+}
+
+.gtr-navbar-menu svg {
+    cursor: pointer;
+}
+
+.gtr-navbar-menu-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: end;
+    background: skyblue;
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right:0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.gtr-navbar-menu-container p {
+    margin: 1rem 0;
+}
+
+.gtr-navbar-menu-container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .gtr-navbar-sign {
+        display: none;
+    }
+    .gtr-navbar-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    
+    .gtr-navbar {
+        padding: 2rem 4rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .gtr-navbar {
+        padding: 2rem;
+    }
+
+    .gtr-navbar-sign {
+        display: none;
+    }
+
+    /* .gtr-navbar-menu-container-links-sign {
+        display: block;
+    } */
+
+    .gtr-navbar-menu-container-links-sign button {
+        margin: 0;
+    }
+    .gtr-navbar-menu-container {
+        top: 20px;
+    }
+}
+
+
+
+
+
+
+
+
