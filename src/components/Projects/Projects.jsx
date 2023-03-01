@@ -9,7 +9,7 @@ import workoutPal from "../../assets/workoutpal_banner.avif";
 const Projects = () => {
     const navigate = useNavigate();
     return (
-        <div className="main" id="my-skills">
+        <div className="main" id="my-projects">
             <h1 className="title">My Projects</h1>
             <Row className="my-4 cards-div">
                 <Col xs={12} lg={3}>

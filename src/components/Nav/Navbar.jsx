@@ -7,19 +7,19 @@ const Menu = () => {
     return (
         <>
             <p>
-                <a href="/#about-me" >About Me</a>
+                <a href="#about-me" >About Me</a>
             </p>
             <p>
-                <a href="#wgtr">My Skills</a>
+                <a href="#my-skills">My Skills</a>
             </p>
             <p>
-                <a href="#posiibilities">Projects</a>
+                <a href="#my-projects">Projects</a>
             </p>
             <p>
-                <a href="#features">Experience</a>
+                <a href="#my-experience">Experience</a>
             </p>
             <p>
-                <a href="#bolg">Contact</a>
+                <a href="#contact">Contact</a>
             </p>
         </>
     );

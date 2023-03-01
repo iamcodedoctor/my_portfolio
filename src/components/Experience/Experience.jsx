@@ -4,7 +4,7 @@ import "./Experience.css";
 
 const Experience = () => {
     return (
-        <div className="main" id="my-skills">
+        <div className="main" id="my-experience">
             <h1 className="title">My Education and Work Experience</h1>
             <div className="my-4">
                 <Tab.Container id="left-tabs-example" defaultActiveKey="ssc">

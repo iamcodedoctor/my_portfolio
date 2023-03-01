@@ -3,7 +3,7 @@ import { RiMailOpenLine, RiPhoneLine, RiGithubLine } from "react-icons/ri";
 
 const Contact = () => {
     return (
-        <div className="main my-4">
+        <div className="main my-4" id="contact">
             <h1 className="title">Contact Me</h1>
             <div>
                 <p className="mt-4 mb-2">
