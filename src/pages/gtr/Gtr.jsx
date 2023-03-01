@@ -21,7 +21,7 @@ const Gtr = () => {
                 </Carousel.Item>
             </Carousel>
             <div>
-                <a href="#" target={"_blank"}>
+                <a href="https://gtr-lp3b.onrender.com/" target={"_blank"}>
                     <Button className="mr-2 my-2">View Site</Button>
                 </a>
                 <a

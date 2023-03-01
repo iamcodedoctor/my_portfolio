@@ -8,7 +8,11 @@ const Portfolio = () => {
     const navigate = useNavigate();
     return (
         <div className="main">
-            <Button onClick={() => navigate("/")} variant="secondary" className="mb-2">
+            <Button
+                onClick={() => navigate("/")}
+                variant="secondary"
+                className="mb-2"
+            >
                 Back to Home
             </Button>
             <Carousel>
@@ -17,10 +21,17 @@ const Portfolio = () => {
                 </Carousel.Item>
             </Carousel>
             <div>
-                <Button className="mr-2 my-2">View Site</Button>
-                <Button variant="success" className="mx-2 my-2">
-                    View Source Code
-                </Button>
+                <a href="https://niraj-khare.onrender.com" target="_blank">
+                    <Button className="mr-2 my-2">View Site</Button>
+                </a>
+                <a
+                    href="https://github.com/iamcodedoctor/my_portfolio"
+                    target="_blank"
+                >
+                    <Button variant="success" className="mx-2 my-2">
+                        View Source Code
+                    </Button>
+                </a>
             </div>
             <h1 className="title mt-2">Portolio</h1>
             <p>
